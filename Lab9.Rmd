@@ -11,6 +11,8 @@ Explore the data.
 
 Measurements of geometrical properties of kernels belonging to three different varieties of wheat. A soft X-ray technique and GRAINS package were used to construct all seven, real-valued attributes.
 ```{r}
+library(tidyverse)
+library(kableExtra)
 seeds <- read.table(
   "https://archive.ics.uci.edu/ml/machine-learning-databases/00236/seeds_dataset.txt"
   )
